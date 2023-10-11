@@ -1,0 +1,102 @@
+{
+  "title": "Sports Form",
+  "description": "What Sports do you play?",
+  "actions": [
+    {
+      "id": 1,
+      "title": "Football",
+      "type": "checkbox",
+      "enabled": true,
+      "bg": "red",
+      "forms": {
+        "matches": {
+          "label": "No. of matches",
+          "placeholder": "Input no. of matches",
+          "type": "number"
+        },
+        "goals": {
+          "label": "Total Goals Scored",
+          "placeholder": "Input no. of goals",
+          "type": "number"
+        },
+        "achievments": {
+          "label": "Your Achievments",
+          "placeholder": "Your key achievments from football career....",
+          "type": "text"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "title": "Cricket",
+      "type": "checkbox",
+      "enabled": false,
+      "bg": "red",
+      "forms": {
+        "matches": {
+          "label": "No. of matches",
+          "placeholder": "Input no. of matches",
+          "type": "number"
+        },
+        "runs": {
+          "label": "Total Runs Scored",
+          "placeholder": "Input no. of runs scored",
+          "type": "number"
+        },
+        "achievments": {
+          "label": "Your Achievments",
+          "placeholder": "Your key achievments from Cricket career....",
+          "type": "text"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "title": "Badminton",
+      "type": "checkbox",
+      "enabled": false,
+      "bg": "red",
+      "forms": {
+        "matches": {
+          "label": "No. of matches",
+          "placeholder": "Input no. of matches",
+          "type": "number"
+        },
+        "wins": {
+          "label": "Total Wins",
+          "placeholder": "Input your winning streak",
+          "type": "number"
+        },
+        "achievments": {
+          "label": "Your Achievments",
+          "placeholder": "Your key achievments from Badminton career....",
+          "type": "text"
+        }
+      }
+    },
+    {
+      "title": "Tennis",
+      "enabled": false,
+      "id": 4,
+      "type": "checkbox",
+      "bg": "red",
+      "forms": {
+        "matches": {
+          "label": "No. of matches",
+          "placeholder": "Input no. of matches",
+          "type": "number"
+        },
+        "wins": {
+          "label": "Total Wins",
+          "placeholder": "Input your winning streak",
+          "type": "number"
+        },
+        "achievments": {
+          "label": "Your Achievments",
+          "placeholder": "Your key achievments from Tennis career....",
+          "type": "text"
+        }
+      }
+    }
+  ]
+}
